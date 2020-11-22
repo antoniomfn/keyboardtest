@@ -5,8 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build ",
+    "export": "next export",
     "start": "node server",
-    "postinstall": "next build"
+    "postinstall": "next export"
   },
   "dependencies": {
     "express": "^4.17.1",
