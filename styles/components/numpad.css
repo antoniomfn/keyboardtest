@@ -1,0 +1,52 @@
+.numlock-container {
+  width: 184px;
+  display: flex;
+  flex-direction: column;
+}
+
+.numlock-container .numlock-light-container {
+  width: 100%;
+  height: 54px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  cursor: default;
+}
+
+.numlock-container .numlock-light-container div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+  color: var(--color-key-text-white);
+  font-family: 'Poppins', sans-serif;
+}
+
+.numlock-container .numlock-light-container div span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--color-light-green-off);
+}
+
+.numlock-container .numlock-light-container div.on span {
+  background-color: var(--color-light-green-on);
+  box-shadow: 0px 0px 50px 10px var(--color-light-green-on);
+}
+
+.numlock-container .numlock-numpad-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.numlock-container .numlock-numpad-container .numpad-first-line-container,
+.numlock-container .numlock-numpad-container .numpad-second-line-container,
+.numlock-container .numlock-numpad-container .numpad-third-line-container,
+.numlock-container .numlock-numpad-container .numpad-fourth-line-container,
+.numlock-container .numlock-numpad-container .numpad-fifth-line-container {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}

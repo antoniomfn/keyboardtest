@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100vh;
+}
+      
+*, button, input, span {
+  border: 0;
+  outline: 0;
+}
+
+:root {
+  --color-background-dark: #141414;
+  --color-background-light: #f1f1f1;
+
+  --color-key-dark: #131313;
+  --color-key-dark-shadow: #050505;
+
+  --color-key-text-white: #f1f1f1;
+
+  --color-light-green-off: rgba(1, 58, 30, 0.678);
+  --color-light-green-on: rgba(92,255,107,0.82);
+}
+

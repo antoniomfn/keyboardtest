@@ -1,0 +1,52 @@
+.keyboard-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+.keyboard-layout textarea {
+  margin-top: 10px;
+  width: 1050px;
+  height: 200px;
+  font-size: 14px;
+  padding: 5px;
+  resize: none;
+  border: 2px solid var(--color-background-dark);
+}
+
+#keyboard {
+  width: 1050px;
+  height: 325px;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: var(--color-background-dark);
+}
+
+#keyboard * button {
+  background: var(--color-key-dark);
+  box-shadow: 0px 10px 0px 3px var(--color-key-dark-shadow);
+}
+
+#keyboard * button:active,
+#keyboard * button.actived {
+  margin-top: 8px;
+  box-shadow: 0px 4px 0px 3px var(--color-key-dark-shadow);
+}
+
+#keyboard * button.key-enter2:active,
+#keyboard * button.key-enter2.actived-2 {
+  margin-top: -2px;
+  box-shadow: 0px 4px 0px 3px var(--color-key-dark-shadow);
+}
+
+#keyboard * button span {
+  color: var(--color-key-text-white);
+  opacity: 0.9;
+}
+
+#keyboard * button img{
+  filter: invert(1);
+  opacity: 0.9;
+}
