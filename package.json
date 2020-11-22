@@ -7,7 +7,7 @@
     "build": "next build ",
     "export": "next export",
     "start": "node server",
-    "postinstall": "next export"
+    "postinstall": "next build && next export"
   },
   "dependencies": {
     "express": "^4.17.1",
