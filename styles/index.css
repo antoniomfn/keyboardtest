@@ -177,6 +177,7 @@ footer p {
     flex-direction: column;
     align-items: center;
     opacity: 0;
+    pointer-events: none;
     transition: opacity 0.5s ease-in;
   }
 
@@ -190,6 +191,7 @@ footer p {
 
   header .responsive {
     opacity: 1;
+    pointer-events: all;
   }
 
   header .open .line1 {
@@ -259,17 +261,5 @@ footer p {
 
   header .open .line3 {
     transform: rotate(45deg) translate(-5px, -2px);
-  }
-}
-
-@keyframes responsiveMenu {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateX(0px);
   }
 }
