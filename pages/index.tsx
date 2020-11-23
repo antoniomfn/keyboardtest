@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import React from 'react';
 
 function Home() {
@@ -11,9 +10,6 @@ function Home() {
 
   return (
     <div className="layout">
-      <Head >
-        <title>Test your Keyboard | KeyboardTest.net</title>
-      </Head>
       <header>
         <div id="logo">keyboardtest.net</div>
         <div className="menu">

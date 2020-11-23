@@ -92,9 +92,6 @@ function Keyboard() {
 
   return (
     <div className="keyboard-layout">
-      <Head>
-        <title>Test yout keyboard | Keyboardtest.net</title>
-      </Head>
       <div id="keyboard">
         <PTBR />
         <ScrollPad />
